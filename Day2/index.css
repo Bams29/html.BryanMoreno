@@ -125,7 +125,7 @@ header a:hover{
     border-radius: 15px;
 }
 
-.carta:nth-child(2){
+.cc{
     
     background-image:
     linear-gradient(
@@ -139,7 +139,7 @@ header a:hover{
     background-size: cover;
 }
 
-.carta:nth-child(3){
+.carta:nth-child(2){
     
     background-image:
     linear-gradient(
@@ -153,7 +153,7 @@ header a:hover{
 }
 
 
-.carta:nth-child(4){
+.carta:nth-child(3){
     background-image:
     linear-gradient(
         0deg,
@@ -174,3 +174,64 @@ header a:hover{
     margin: 16px 0px;
     font-weight: bold;
 }
+
+@media only screen and (min-width: 476px) {
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+    }
+}
+
+#hero h1{
+    font-size: 5em;
+}
+
+#soiyo .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#soiyo .texto{
+    width: 50%;
+    text-align: initial;
+    padding: 0px 30px;
+}
+
+#soiyo .img-container{
+    background-image:
+    url("./imgs/manofsex.jpg");
+    background-position: center center; 
+    background-size: cover;
+    height: 500px;
+    width: 600px;
+
+}
+
+#mis-metas .metas{
+    display: flex;
+    justify-content: center;
+}
+
+#mis-metas p{
+    display: block;
+    margin-bottom: 30px;
+}
+
+#mis-metas h3{
+    margin-top: 0;
+}
+
+#mis-metas .carta{
+    padding: 50px;
+}
+
