@@ -17,7 +17,7 @@ h2{font-size: 2.7em;}
 h3{font-size: 2;}
 p{font-size: 1.25em;}
 ul{list-style: none;}
-li{font-size: 1.25em;}
+li{font-size: 1.5em;}
 
 button{
     font-size: 1.5em;
@@ -130,8 +130,8 @@ header a:hover{
     background-image:
     linear-gradient(
         0deg,
-        rgba(18, 18, 18, 0.3),
-        rgba(0,0,0,0.3)
+        rgba(18, 18, 18, 0.4),
+        rgba(0,0,0,0.4)
     ),
     
     url("./imgs/corrupt.gif");
@@ -144,8 +144,8 @@ header a:hover{
     background-image:
     linear-gradient(
         0deg,
-        rgba(18, 18, 18, 0.3),
-        rgba(0,0,0,0.3)
+        rgba(18, 18, 18, 0.4),
+        rgba(0,0,0,0.4)
     ),
     url("./imgs/crimson.gif");
     background-position: center; 
@@ -157,8 +157,8 @@ header a:hover{
     background-image:
     linear-gradient(
         0deg,
-        rgba(18, 18, 18, 0.3),
-        rgba(0,0,0,0.3)
+        rgba(18, 18, 18, 0.4),
+        rgba(0,0,0,0.4)
     ),
     url("./imgs/hallow.gif");
     background-position: center; 
@@ -235,3 +235,17 @@ header a:hover{
     padding: 50px;
 }
 
+#misaspiraciones{
+    background-image: url("./imgs/doctorsex.png");
+    background-repeat: no-repeat;
+    background-size: 600px 500px;
+    background-position: calc(100vw - 700px) 120px;
+}
+
+#misaspiraciones .container{
+    text-align: initial;
+}
+
+#misaspiraciones ul{
+    margin-left: 20px;
+}
