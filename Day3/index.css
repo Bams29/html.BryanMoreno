@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+#tab, #teb{
+    visibility: hidden;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+a:target{
+    visibility:collapse;
+}
+
+header a:hover{
+    color: rgb(170, 70, 223);
+}
+
+table{
+    width: 80%;
+    border: 2px solid black;
+    border-spacing: 0.5;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+li{
+    text-align: left;
+}
+
+th, td{
+    text-align: center;
+    width: 50%;
+    border: 2px solid black;
+    border-spacing: 0.5;
+    font-size: 1.25em;
+}
+
+
+
