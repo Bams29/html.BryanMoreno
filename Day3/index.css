@@ -76,12 +76,12 @@ button{
 .btn {
     border: none; 
     color: black; 
-    padding: 20px 38px; 
+    padding: 15px 38px; 
     cursor: pointer; 
     border-radius: 6px;
     margin-left: 95px;
     margin-bottom: 20px;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .f {background-color: #c16124de; border: 2px solid #ab6209;} 
