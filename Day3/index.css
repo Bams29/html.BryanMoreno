@@ -89,3 +89,7 @@ button{
 
 .g {background-color: #c16124de; border: 2px solid #ab6209;} 
 .g:hover {background: #f18c18d7; color: white;}
+
+p{
+    font-size: 1.5em;
+}
