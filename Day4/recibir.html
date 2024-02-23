@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <meta charset="UTF-8">
+    <title>Recepción de datos</title>
+</head>
+<body>
+    <h1>Datos recibidos:</h1>
+    <ul>
+        <li><strong>Nombre:</strong> <?php echo $_GET['nombre']; ?></li>
+        <li><strong>Apellidos:</strong> <?php echo $_GET['apellidos']; ?></li>
+        <li><strong>Sexo:</strong> <?php echo $_GET['sexo']; ?></li>
+        <li><strong>Correo electrónico:</strong> <?php echo $_GET['email']; ?></li>
+        <li><strong>Deseo recibir información sobre novedades y ofertas:</strong> <?php echo isset($_GET['novedades']) ? 'Sí' : 'No'; ?></li>
+        <li><strong>Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos:</strong> <?php echo isset($_GET['condiciones']) ? 'Sí' : 'No'; ?></li>
+        <li><strong>Población:</strong> <?php echo $_GET['poblacion']; ?></li>
+        <li><strong>Descripción:</strong> <?php echo $_GET['descripcion']; ?></li>
+    </ul>
+</body>
+</html>
