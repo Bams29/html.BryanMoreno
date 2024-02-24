@@ -1,0 +1,61 @@
+html{
+    width: 1920px;
+    height: 1080px;
+}
+
+body{
+    background-color: rgb(138, 137, 137);
+}
+
+header{
+    display: flex;
+}
+
+header .logo{
+    text-align: left;
+    padding-top: 37px;
+    padding-left: 63px;
+    width: 36px;
+    height: 36px;
+}
+
+header nav{
+    position: relative;
+    padding-top: 30px;
+    padding-left: 1695px;
+    padding-right: 20px;
+    width: 205px;
+    height: 54px;
+    z-index: -1;
+}
+
+.login {
+    position: absolute;
+    top: 63px;
+    right: 97px;
+    z-index: 1;
+}
+
+/*--------HERO---------*/
+
+#hero .img-container{
+    padding-top: 227px;
+    padding-left: 682px;
+    width: 556px;
+    height: 313px;
+}
+
+#hero p{
+    padding-left: 380px;
+    padding-right: 380px;
+    font-size: 30px;    
+    text-align: center;
+}
+
+#hero h1{
+    text-align: center;
+    padding-left: 389px;
+    padding-right: 380px;
+    font-size: 60px;
+
+}
