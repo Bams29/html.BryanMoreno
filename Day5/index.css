@@ -180,3 +180,40 @@ body #cubos{
     width: 1590px;
     
 }
+
+/*-----------tres------------*/
+
+.carta3 img{
+    position: absolute;
+    left: 63px;
+    right: 64px;
+    top: 2600px;
+    width: 1792px;
+    height: 567px;
+    border-radius: 108px;
+}
+
+.carta3 .cont1{
+    position: absolute;
+    top: 2670px;
+    left: 550px;
+    width: 800px;
+    height: 60px;
+}
+
+.carta3 .cont2{
+    position: absolute;
+    width: 169px;
+    height: 169px;
+    top: 2800px;
+    left: 857px;
+}
+
+.carta3 .cont3{
+    position: absolute;
+    top: 3000px;
+    left: 275px;
+    width: 1382px;
+    height: 89px;
+    margin: 0;
+}
