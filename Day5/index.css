@@ -1,32 +1,40 @@
 html{
     width: 1920px;
-    height: 1080px;
+    height: 4149px;
+}
+
+
+@font-face {
+    font-family: 'Amazon'; /* Nombre de la fuente */
+    src: url('./fuente/amazon_typography_all_5e593ec/all') format('truetype');
 }
 
 body{
-    background-color: rgb(138, 137, 137);
+    background-color: rgb(0, 0, 0);
+    font-family: 'Roboto', ;
+    font-family: 'Amazon', sans-serif;
 }
 
 header{
     display: flex;
+    background-color: transparent;
+    position: absolute;
+    z-index: -1;
 }
 
 header .logo{
     text-align: left;
     padding-top: 37px;
     padding-left: 63px;
-    width: 36px;
-    height: 36px;
 }
 
 header nav{
     position: relative;
     padding-top: 30px;
-    padding-left: 1695px;
+    padding-left: 1600px;
     padding-right: 20px;
-    width: 205px;
-    height: 54px;
-    z-index: -1;
+    z-index: 2;
+    
 }
 
 .login {
@@ -37,6 +45,13 @@ header nav{
 }
 
 /*--------HERO---------*/
+
+#hero{
+    background: transparent url('img/FondoTwitch.png') 0% 0% no-repeat padding-box;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 1;
+}
 
 #hero .img-container{
     padding-top: 227px;
@@ -50,6 +65,7 @@ header nav{
     padding-right: 380px;
     font-size: 30px;    
     text-align: center;
+    color: white;
 }
 
 #hero h1{
@@ -57,5 +73,110 @@ header nav{
     padding-left: 389px;
     padding-right: 380px;
     font-size: 60px;
+    color: white;
 
+}
+
+#hero .rect{
+    position: relative;
+    padding-top: 20px;
+    padding-left: 720px;
+    padding-right: 738px;
+    padding-bottom: 222px;
+    z-index: -1;
+}
+
+#hero .sin{
+    position: absolute;
+    top: 930px;
+    left: 770px;
+    z-index: 1;
+}
+
+/*-------------los cubos estos--------------*/
+
+/*------------------el primero----------------*/
+.carta1{
+    position: relative;
+}
+
+.carta1 img{
+    position: absolute;
+    left: 63px;
+    right: 64px;
+}
+
+body #cubos{
+    display: flex;
+}
+/*------------Two---------------*/
+.carta2{
+    position: relative;
+}
+
+.carta2 img{
+    position: absolute;
+    left: 63px;
+    right: 64px;
+    top: 600px;
+    width: 1792px;
+    height: 724px;
+}
+
+.carta2 h3{
+    position: absolute;
+    left: 120px;
+    top: 600px;
+    width: 1792px;
+    height: 724px;
+    font-size: 60px;
+    color: white;
+}
+
+.mov{
+    position: relative;                                 /*mi papa es fox*/
+}
+
+.mov img{
+    display: flex;
+    width: 181px; 
+    height: 309px;
+}
+
+.mov .r1{
+    position: absolute;
+    top: 800px;
+    left: 477px;
+}
+
+.mov .r2{
+    position: absolute;
+    top: 800px;
+    left: 670px;
+}
+
+.mov .r3{
+    position: absolute;
+    top: 800px;
+    left: 863px;
+}
+
+.mov .r4{
+    position: absolute;
+    top: 800px;
+    left: 1055px;
+}
+
+.mov .r5{
+    position: absolute;
+    top: 800px;
+    left: 1248px;
+}
+
+.carta2 p img{
+    position: relative;
+    top: 850px;
+    left: 160px;
+    width: 1590px;
+    
 }
