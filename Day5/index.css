@@ -217,3 +217,72 @@ body #cubos{
     height: 89px;
     margin: 0;
 }
+
+/*-------------compatible devices-----------*/
+
+.d1, .d2, .d3{
+    position: relative;
+}
+
+.dv{
+    position: absolute;
+    top: 1300px;
+    left: 409px;
+    width: 1118px;
+    height: 125px;
+}
+
+.dv2{
+    position: absolute;
+    top: 1496px;
+    left: 170px;
+    width: 1544px;
+    height: 99px;
+}
+
+.dv3{
+    position: absolute;
+    top: 1889px;
+    left: 305px;
+    width: 19px;
+    height: 27px;
+
+}
+
+.dv4{
+    position: absolute;
+    top: 1806px;
+    left: 386px;
+    width: 256px;
+    height: 219px;
+}
+
+.dv5{
+    position: absolute;
+    top: 1630px;
+    left: 650px;
+    width: 584px;
+    height: 534px;
+}
+
+.dv6{
+    position: absolute;
+    top: 1780px;
+    left: 1241px;
+    width: 271px;
+    height: 238px;
+}
+
+.dv7{
+    position: absolute;
+    top: 1889px;
+    left: 1575px;
+    width: 18px;
+    height: 26px;
+    transform: rotate(180deg);  
+}
+
+/*--------------patas-----------------*/
+
+
+
