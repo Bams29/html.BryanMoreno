@@ -279,10 +279,42 @@ body #cubos{
     left: 1575px;
     width: 18px;
     height: 26px;
-    transform: rotate(180deg);  
+    transform: rotate(180deg);  /*como diria rene: gg*/
 }
 
 /*--------------patas-----------------*/
 
 
+.case{
+    position: relative;
+}
 
+.pw{
+    position: absolute;
+    top: 2200px;
+    left: 800px;
+    width: 92px;
+    height: 20px;
+}
+
+.firma{
+    position: absolute;
+    top: 2175px;
+    left: 790px;
+    width: 430px;
+    height: 241px;
+}
+
+/*----------------rata piedra preciosa----------------*/
+
+.legal{
+    position: relative;
+}
+
+.g5{
+    position: absolute;
+    top: 2350px;
+    left: 543px;
+    width: 831px;
+    height: 25px;
+}
