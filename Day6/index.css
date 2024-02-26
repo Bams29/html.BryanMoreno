@@ -21,7 +21,7 @@ body{
     z-index: 2;
 }
 
-#hero img{
+#hero .he1{
     position: absolute;
     left: 1290px;
     width: 110px;
@@ -80,8 +80,6 @@ header{
     width: 27px;
     height: 27px;
 }
-
-
 
 .cont5{
     position: absolute;
