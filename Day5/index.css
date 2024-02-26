@@ -194,7 +194,7 @@ body #cubos{
 }
 
 .carta3 .cont1{
-    position: absolute;
+    position: absolute;   /*hijodesugranputamadreestosiestadificildehacerdiosmionosequemasponerpararellenarestecomentario*/
     top: 2670px;
     left: 550px;
     width: 800px;
@@ -275,7 +275,7 @@ body #cubos{
 
 .dv7{
     position: absolute;
-    top: 1889px;
+    top: 1900px;
     left: 1575px;
     width: 18px;
     height: 26px;
