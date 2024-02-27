@@ -202,8 +202,15 @@ footer .f3{
 
 footer .f4 img{
     position: absolute;
-    top: 303px;
-    left: 459px;
+    top: 685px;
+    left: 1095px;
     width: 129px;
     height: 29px;    
+}
+
+footer .f5 {
+    position: absolute;
+    top: 710px;
+    left: 1107px;
+    font-size: 26px;
 }
