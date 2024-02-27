@@ -17,7 +17,8 @@ body{
 }
 
 
-/*------------header----------*/
+
+/*---------------c----------------*/
 
 header{
     position: relative;
@@ -57,14 +58,16 @@ header{
     
 }
 
+.cont2 a:hover{
+    color: rgb(114, 111, 111);
+}
+
 .cont3 p,a{
     text-decoration:black;
     color: black;
 }
 
-.cont3 a:hover{
-    color: rgb(114, 111, 111);
-}
+
 
 .cont4{
     position: absolute;
@@ -82,7 +85,7 @@ header{
     height: 32px;
 }
 
-/*-------------parte negra------------*/
+/*--------------N-word-------------------*/
 
 #hero{
     position: relative;
@@ -112,7 +115,7 @@ header{
 #hero .he3{
     position: absolute;
     top: 149px;
-    left: 1312px;
+    left: 1321px;
     width: 84px;
     height: 27px;
     color: white;
@@ -121,7 +124,7 @@ header{
 #hero .he4{
     position: absolute;
     top: 304px;
-    left: 1335px;
+    left: 1317px;
     width: 23px;
     height: 187px;
     color: white;
@@ -131,7 +134,7 @@ header{
 #hero .he5{
     position: absolute;
     top: 390px;
-    left: 1335px;
+    left: 1317px;
     width: 23px;
     height: 187px;
     color: white;
@@ -140,7 +143,7 @@ header{
 #hero .he6{
     position: absolute;
     top: 490px;
-    left: 1335px;
+    left: 1317px;
     width: 23px;
     height: 187px;
     color: white;
@@ -153,57 +156,4 @@ header{
     left: 1332px;
     width: 24px;
     height: 14px;
-}
-/*----------cuerpo---------*/
-
-#tarjeta{
-    position: relative;
-}
-
-.tj{
-    position: absolute;
-    top: 149px;
-    left: 127px;
-    width: 884px;
-    height: 497px;
-}
-
-/*------------patas---------------*/
-
-footer{
-    position: relative;
-}
-
-footer .f1{
-    position: absolute;
-    top: 661px;
-    left: 58px;
-    width: 716px;
-    height: 55px;
-    font-size: 40px;
-}
-
-footer .f2{
-    position: absolute;
-    top: 724px;
-    left: 57px;
-    width: 139px;
-    height: 37px;
-    font-size: 27px;
-}
-
-footer .f3{
-    position: absolute;
-    top: 647px;
-    left: 1080px;
-    width: 160px;
-    height: 114px;
-}
-
-footer .f4 img{
-    position: absolute;
-    top: 303px;
-    left: 459px;
-    width: 129px;
-    height: 29px;    
 }
