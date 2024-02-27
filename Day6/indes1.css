@@ -168,7 +168,7 @@ header{
 
 .tj{
     position: absolute;
-    top: 103px;
+    top: 149px;
     left: 348px;
     width: 576px;
     height: 324px;
@@ -176,19 +176,35 @@ header{
 
 .e1{
     position: absolute;
-    top: 400px;
+    top: 420px;
     left: 301px;
     font-size: 40px;
 }
 
 .e2{
     position: absolute;
-    top: 477px;
+    top: 520px;
     left: 483px;
     font-size: 27px;
 }
 
+.e3{
+    position: absolute;
+    top: 584px;
+    left: 539px;
+    font-size: 27px;
+}
 
+.e4 input{
+    position: absolute;
+    top: 670px;
+    left: 495px;
+    width: 288px;
+    height: 58px;
+
+    border: 1px solid #707070;
+    border-radius: 10px;
+}
 /*--------------foot_pelota----------------*/
 
 footer{
