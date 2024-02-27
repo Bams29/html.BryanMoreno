@@ -157,3 +157,17 @@ header{
     width: 24px;
     height: 14px;
 }
+
+/*-----------------la mala pa movistar-------------*/
+
+#tarjeta{
+    position: relative;
+}
+
+.tj{
+    position: absolute;
+    top: 103px;
+    left: 348px;
+    width: 576px;
+    height: 324px;
+}
