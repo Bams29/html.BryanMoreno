@@ -24,63 +24,63 @@ header{
     z-index: 1;
 }
 
-.cont{
+.cont img{
     position: absolute;
     top: 43px;
     left: 43px;
-    width: 110px;
-    height: 100%;
+    width: 300px;
+    height: 60px;
 }
 
 .cont2{
     position: absolute;
-    top: 40px;
-    left: 700px;
-    width: 230px;
-    height: 41px;
-    font-size: 30px;
+    top: 20px;
+    left: 920px;
+    font-size: 45px;
 }
 
-.cont2 .p1{
-    position: absolute;
-    left: 50px;
-    top: 32px;
+.cont2 a:hover{
+    color: rgb(114, 111, 111);
 }
 
-.cont3{
-    position: absolute;
-    top: 40px;
-    left: 972px;
-    width: 132px;
-    height: 41px;
-    font-size: 30px;
-    
-}
-
-.cont3 p,a{
+.cont2 p,a{
     text-decoration:black;
     color: black;
 }
 
-.cont3 a:hover{
-    color: rgb(114, 111, 111);
+.cont2 .p1 img{
+    position: absolute;
+    left: 60px;
+    top: 110px;
+    width: 200px;
+    height: 70px;
 }
 
-.cont4{
+.cont3{
     position: absolute;
-    top: 64px;
-    left: 1123px;
-    width: 27px;
-    height: 27px;
+    top: 20px;
+    left: 1350px;
+    font-size: 45px;
+    width: 200px;
 }
 
-.cont5{
+
+.cont4 img{
     position: absolute;
-    top: 64px;
-    left: 1223px;
-    width: 33px;
-    height: 32px;
+    top: 54px;
+    left: 1570px;
+    width: 45px;
+    height: 80px;
 }
+
+.cont5 img{
+    position: absolute;
+    top: 50px;
+    left: 1760px;
+    width: 50px;
+    height: 80px;
+}
+
 
 /*-------------parte negra------------*/
 
@@ -91,69 +91,67 @@ header{
 
 #hero .he1{
     position: absolute;
-    left: 1290px;
-    width: 110px;
-    height: 800px;
+    left: 1950px;
+    width: 700;
+    height: 1220px;
     border-radius: 0px 8px 8px 0px;
 }
 
-.he1 a:hover{
-    color: gray;
-}
 
 #hero .he2{
     position: absolute;
-    top: 40px;
-    left: 1332px;
-    width: 24px;
-    height: 14px;
+    top: 70px;
+    left: 2020px;
+    width: 37px;
+    height: 22px;
+}
+
+.he2 a:hover{
+    color: gray;
 }
 
 #hero .he3{
     position: absolute;
-    top: 149px;
-    left: 1312px;
-    width: 84px;
-    height: 27px;
+    top: 220px;
+    left: 1975px;
+    font-size: 28px;
     color: white;
 }
 
 #hero .he4{
     position: absolute;
-    top: 304px;
-    left: 1335px;
-    width: 23px;
-    height: 187px;
+    top: 404px;
+    left: 2015px;
+    font-size: 30px;
     color: white;
     opacity: 0.5;
 }
 
 #hero .he5{
     position: absolute;
-    top: 390px;
-    left: 1335px;
-    width: 23px;
-    height: 187px;
+    top: 520px;
+    left: 2015px;
+    font-size: 30px;
     color: white;
 }
 
 #hero .he6{
     position: absolute;
-    top: 490px;
-    left: 1335px;
-    width: 23px;
-    height: 187px;
+    top: 650px;
+    left: 2015px;
+    font-size: 30px;
     color: white;
     opacity: 0.5;
 }
 
-#hero .he7{
+#hero .he7 img{
     position: absolute;
-    top: 746px;
-    left: 1332px;
-    width: 24px;
-    height: 14px;
+    top: 1076px;
+    left: 2020px;
+    width: 36px;
+    height: 22px;
 }
+
 /*----------cuerpo---------*/
 
 #tarjeta{
@@ -162,10 +160,10 @@ header{
 
 .tj{
     position: absolute;
-    top: 149px;
-    left: 127px;
-    width: 884px;
-    height: 497px;
+    top: 230px;
+    left: 90px;
+    width: 1300px;
+    height: 700px;
 }
 
 /*------------patas---------------*/
@@ -176,28 +174,28 @@ footer{
 
 footer .f1{
     position: absolute;
-    top: 661px;
+    top: 891px;
     left: 58px;
-    width: 716px;
+    width: 2000px;
     height: 55px;
-    font-size: 40px;
+    font-size: 70px;
 }
 
 footer .f2{
     position: absolute;
-    top: 724px;
+    top: 1050px;
     left: 57px;
-    width: 139px;
+    width: 300px;
     height: 37px;
-    font-size: 27px;
+    font-size: 47px;
 }
 
-footer .f3{
+footer .f3 img{
     position: absolute;
-    top: 647px;
-    left: 1080px;
-    width: 160px;
-    height: 114px;
+    top: 980px;
+    left: 1640px;
+    width: 250px;
+    height: 180px;
 }
 
 footer .f4 img{
