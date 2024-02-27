@@ -42,10 +42,8 @@ header{
     font-size: 30px;
 }
 
-.cont2 .p1{
-    position: absolute;
-    left: 50px;
-    top: 32px;
+.cont2 a:hover{
+    color: rgb(114, 111, 111);
 }
 
 .cont3{
@@ -58,9 +56,13 @@ header{
     
 }
 
-.cont2 a:hover{
-    color: rgb(114, 111, 111);
+.cont3 .p1 img{
+    position: absolute;
+    left: 20px;
+    top: 90px;
+    width: 95px;
 }
+
 
 .cont3 p,a{
     text-decoration:black;
@@ -170,4 +172,48 @@ header{
     left: 348px;
     width: 576px;
     height: 324px;
+}
+
+.e1{
+    position: absolute;
+    top: 400px;
+    left: 301px;
+    font-size: 40px;
+}
+
+.e2{
+    position: absolute;
+    top: 477px;
+    left: 483px;
+    font-size: 27px;
+}
+
+
+/*--------------foot_pelota----------------*/
+
+footer{
+    position: relative;
+}
+
+.f1{
+    position: absolute;
+    top: 647px;
+    left: 1080px;
+    width: 160px;
+    height: 114px;
+}
+
+.f2 img{
+    position: absolute;
+    top: 687px;
+    left: 1095px;
+    width: 129px;
+    height: 29px;
+}
+
+.f3{
+    position: absolute;
+    top: 705px;
+    left: 1105px;
+    font-size: 26px;
 }
