@@ -1,8 +1,5 @@
 html{
-    top: 200px;
-    left: 100px;
-    width: 1400px;
-    height: 800px;
+
     background-color: rgb(255, 255, 255);
 }
 
@@ -36,6 +33,7 @@ header{
     position: absolute;
     top: 20px;
     left: 920px;
+    width: 800px;
     font-size: 45px;
 }
 
@@ -85,15 +83,20 @@ header{
 /*-------------parte negra------------*/
 
 #hero{
-    position: relative;
+    position: absolute;
     z-index: 2;
+}
+
+body{
+    position: absolute;
 }
 
 #hero .he1{
     position: absolute;
     left: 1950px;
-    width: 700;
+    width: 200px;
     height: 1220px;
+    background-color: black;
     border-radius: 0px 8px 8px 0px;
 }
 
@@ -102,7 +105,7 @@ header{
     position: absolute;
     top: 70px;
     left: 2020px;
-    width: 37px;
+    width: 30px;
     height: 22px;
 }
 
@@ -155,7 +158,7 @@ header{
 /*----------cuerpo---------*/
 
 #tarjeta{
-    position: relative;
+    position: absolute;
 }
 
 .tj{
@@ -190,25 +193,27 @@ footer .f2{
     font-size: 47px;
 }
 
-footer .f3 img{
+footer .f3{
     position: absolute;
-    top: 980px;
-    left: 1640px;
-    width: 250px;
-    height: 180px;
+    top: 930px;
+    left: 1590px;
+    width: 300px;
+    height: 230px;
+    background-color: #D5FF43;
+    border-radius: 8px;
 }
 
 footer .f4 img{
     position: absolute;
-    top: 1000px;
-    left: 1670px;
+    top: 990px;
+    left: 1650px;
     width: 170px;
     height: 70px;    
 }
 
 footer .f5 {
     position: absolute;
-    top: 1070px;
-    left: 1690px;
-    font-size: 36px;
+    top: 1060px;
+    left: 1660px;
+    font-size: 39px;
 }

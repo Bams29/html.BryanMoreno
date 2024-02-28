@@ -22,6 +22,9 @@ header{
     z-index: 1;
 }
 
+.cont{
+    position: absolute;
+}
 .cont img{
     position: absolute;
     top: 43px;
@@ -211,20 +214,21 @@ footer{
 }
 
 
-.f1 img{
+.f1 {
     position: absolute;
-    top: 960px;
-    left: 1550px;
-    width: 300px;
-    height: 180px;
+    top: 900px;
+    left: 1510px;
+    width: 320px;
+    height: 230px;
+    background-color: #D5FF43;
     border-radius: 8px;
 }
 
 
 .f2 img{
     position: absolute;
-    top: 987px;
-    left: 1610px;
+    top: 960px;
+    left: 1580px;
     width: 180px;
     height: 60px;
 }
@@ -232,6 +236,6 @@ footer{
 .f3{
     position: absolute;
     top: 1030px;
-    left: 1620px;
+    left: 1590px;
     font-size: 39px;
 }
