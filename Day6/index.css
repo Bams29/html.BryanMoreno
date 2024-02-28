@@ -9,15 +9,16 @@ html{
 }
 
 body{
+    
     font-family: 'Roboto', ;
-    font-family: 'open sans', sans-serif;
+    font-family: 'open sans', sans-serif;;
 }
 
 
 /*------------header----------*/
 
 header{
-    position: relative;
+    position: absolute;
     z-index: 1;
 }
 
@@ -83,8 +84,9 @@ header{
 /*-------------parte negra------------*/
 
 #hero{
+    
     position: absolute;
-    z-index: 2;
+    z-index: 1;
 }
 
 body{
@@ -95,7 +97,7 @@ body{
     position: absolute;
     left: 1950px;
     width: 200px;
-    height: 1220px;
+    height: 1290px;
     background-color: black;
     border-radius: 0px 8px 8px 0px;
 }
