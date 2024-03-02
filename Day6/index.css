@@ -24,16 +24,16 @@ header{
 
 .cont img{
     position: absolute;
-    top: 43px;
-    left: 43px;
+    top: 8vh;
+    left: 8vh;
     width: 300px;
     height: 60px;
 }
 
 .cont2{
     position: absolute;
-    top: 20px;
-    left: 920px;
+    top: 2.2vh;
+    left: 85vh;
     width: 800px;
     font-size: 45px;
 }
@@ -49,16 +49,16 @@ header{
 
 .cont2 .p1 img{
     position: absolute;
-    left: 60px;
-    top: 110px;
+    left: 9vh;
+    top: 10vh;
     width: 200px;
     height: 70px;
 }
 
 .cont3{
     position: absolute;
-    top: 20px;
-    left: 1350px;
+    top: 2vh;
+    left: 70vw;
     font-size: 45px;
     width: 200px;
 }
@@ -66,16 +66,16 @@ header{
 
 .cont4 img{
     position: absolute;
-    top: 54px;
-    left: 1570px;
+    top: 5vh;
+    left: 82vw;
     width: 45px;
     height: 80px;
 }
 
 .cont5 img{
     position: absolute;
-    top: 50px;
-    left: 1760px;
+    top: 5vh;
+    left: 95vw;
     width: 50px;
     height: 80px;
 }
@@ -95,7 +95,7 @@ body{
 
 #hero .he1{
     position: absolute;
-    left: 1950px;
+    left: 102vw;
     width: 200px;
     height: 1290px;
     background-color: black;
@@ -105,8 +105,8 @@ body{
 
 #hero .he2{
     position: absolute;
-    top: 70px;
-    left: 2020px;
+    top: 7vh;
+    left: 106vw;
     width: 30px;
     height: 22px;
 }
@@ -117,16 +117,16 @@ body{
 
 #hero .he3{
     position: absolute;
-    top: 220px;
-    left: 1975px;
+    top: 18vh;
+    left: 104vw;
     font-size: 28px;
     color: white;
 }
 
 #hero .he4{
     position: absolute;
-    top: 404px;
-    left: 2015px;
+    top: 35vh;
+    left: 106vw;
     font-size: 30px;
     color: white;
     opacity: 0.5;
@@ -134,16 +134,16 @@ body{
 
 #hero .he5{
     position: absolute;
-    top: 520px;
-    left: 2015px;
+    top: 47vh;
+    left: 106vw;
     font-size: 30px;
     color: white;
 }
 
 #hero .he6{
     position: absolute;
-    top: 650px;
-    left: 2015px;
+    top: 59vh;
+    left: 106vw;
     font-size: 30px;
     color: white;
     opacity: 0.5;
@@ -151,8 +151,8 @@ body{
 
 #hero .he7 img{
     position: absolute;
-    top: 1076px;
-    left: 2020px;
+    top: 100vh;
+    left: 106vw;
     width: 36px;
     height: 22px;
 }
@@ -165,8 +165,8 @@ body{
 
 .tj{
     position: absolute;
-    top: 230px;
-    left: 90px;
+    top: 20vh;
+    left: 8vw;
     width: 1300px;
     height: 700px;
 }
@@ -179,8 +179,8 @@ footer{
 
 footer .f1{
     position: absolute;
-    top: 891px;
-    left: 58px;
+    top: 80vh;
+    left: 4vw;
     width: 2000px;
     height: 55px;
     font-size: 70px;
@@ -188,8 +188,8 @@ footer .f1{
 
 footer .f2{
     position: absolute;
-    top: 1050px;
-    left: 57px;
+    top: 96vh;
+    left: 5vw;
     width: 300px;
     height: 37px;
     font-size: 47px;
@@ -197,8 +197,8 @@ footer .f2{
 
 footer .f3{
     position: absolute;
-    top: 930px;
-    left: 1590px;
+    top: 87vh;
+    left: 83vw;
     width: 300px;
     height: 230px;
     background-color: #D5FF43;
@@ -207,15 +207,15 @@ footer .f3{
 
 footer .f4 img{
     position: absolute;
-    top: 990px;
-    left: 1650px;
+    top: 92vh;
+    left: 86vw;
     width: 170px;
     height: 70px;    
 }
 
 footer .f5 {
     position: absolute;
-    top: 1060px;
-    left: 1660px;
+    top: 99vh;
+    left: 86vw;
     font-size: 39px;
 }

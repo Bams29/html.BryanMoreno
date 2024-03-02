@@ -14,7 +14,11 @@ body{
     font-family: 'open sans', sans-serif;
 }
 
-
+*{
+    background: transparent url('img/Rectangle 2.png') 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+}
 
 /*---------------c----------------*/
 
@@ -28,16 +32,16 @@ header{
 }
 .cont img{
     position: absolute;
-    top: 43px;
-    left: 43px;
+    top: 5vh;
+    left: 4vw;
     width: 300px;
     height: 60px;
 }
 
 .cont2{
     position: absolute;
-    top: 20px;
-    left: 920px;
+    top: 2vh;
+    left: 47vw;
     width: 800px;
     font-size: 45px;
 }
@@ -48,8 +52,8 @@ header{
 
 .cont3 p{
     position: absolute;
-    top: 20px;
-    left: 1350px;
+    top: 2vh;
+    left: 70vw;
     width: 200px;
     font-size: 45px;
     
@@ -57,8 +61,7 @@ header{
 
 .cont3 .p1 img{
     position: absolute;
-    left: 20px;
-    top: 50px;
+    top: 5vh;
     width: 200px;
     height: 90px;
 }
@@ -71,16 +74,16 @@ header{
 
 .cont4 img{
     position: absolute;
-    top: 54px;
-    left: 1570px;
+    top: 5vh;
+    left: 82vw;
     width: 45px;
     height: 80px;
 }
 
 .cont5 img{
     position: absolute;
-    top: 50px;
-    left: 1760px;
+    top: 5vh;
+    left: 93vw;
     width: 50px;
     height: 80px;
 }
