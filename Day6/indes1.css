@@ -1,6 +1,6 @@
 html{
 
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(144, 140, 140);
 }
 
 @font-face {
@@ -97,7 +97,7 @@ header{
 
 #hero .he1{
     position: absolute;
-    left: 1900px;
+    left: 99vw;
     width: 700;
     height: 1300px;
     border-radius: 0px 8px 8px 0px;
@@ -109,24 +109,24 @@ header{
 
 #hero .he2{
     position: absolute;
-    top: 70px;
-    left: 1965px;
+    top: 9vh;
+    left: 103vw;
     width: 37px;
     height: 22px;
 }
 
 #hero .he3{
     position: absolute;
-    top: 220px;
-    left: 1949px;
+    top: 23vh;
+    left: 102vw;
     font-size: 30px;
     color: white;
 }
 
 #hero .he4{
     position: absolute;
-    top: 404px;
-    left: 1944px;
+    top: 46vh;
+    left: 101vw;
     font-size: 30px;
     color: white;
     opacity: 0.5;
@@ -134,16 +134,16 @@ header{
 
 #hero .he5{
     position: absolute;
-    top: 520px;
-    left: 1944px;
+    top: 58vh;
+    left: 101vw;
     font-size: 30px;
     color: white;
 }
 
 #hero .he6{
     position: absolute;
-    top: 650px;
-    left: 1944px;
+    top: 70vh;
+    left: 101vw;
     font-size: 30px;
     color: white;
     opacity: 0.5;
@@ -151,8 +151,8 @@ header{
 
 #hero .he7 img{
     position: absolute;
-    top: 1076px;
-    left: 1975px;
+    top: 110vh;
+    left: 103vw;
     width: 36px;
     height: 22px;
 }
@@ -170,36 +170,36 @@ header{
 
 .tj {
     position: absolute;
-    top: 140px;
-    left: 390px;
+    top: 13vh;
+    left: 21vw;
 
 }
 
 .e1{
     position: absolute;
-    top: 550px;
-    left: 401px;
+    top: 50vh;
+    left: 20vw;
     font-size: 60px;
 }
 
 .e2{
     position: absolute;
-    top: 720px;
-    left: 673px;
+    top: 65vh;
+    left: 35vw;
     font-size: 40px;
 }
 
 .e3{
     position: absolute;
-    top: 824px;
-    left: 749px;
+    top: 75vh;
+    left: 40vw;
     font-size: 40px;
 }
 
 .e4 input{
     position: absolute;
-    top: 970px;
-    left: 695px;
+    top: 90vh;
+    left: 37vw;
     width: 370px;
     height: 80px;
 
@@ -222,8 +222,8 @@ footer{
 
 .f1 {
     position: absolute;
-    top: 900px;
-    left: 1510px;
+    top: 90vh;
+    left: 78vw;
     width: 320px;
     height: 230px;
     background-color: #D5FF43;
@@ -233,15 +233,15 @@ footer{
 
 .f2 img{
     position: absolute;
-    top: 960px;
-    left: 1580px;
+    top: 96vh;
+    left: 82vw;
     width: 180px;
     height: 60px;
 }
 
 .f3{
     position: absolute;
-    top: 1030px;
-    left: 1590px;
+    top: 101vh;
+    left: 82vw;
     font-size: 39px;
 }
