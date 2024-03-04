@@ -1,0 +1,164 @@
+.fondo{
+    position: absolute;
+    background-color: #9b5e4f;
+    border-radius: 100px;
+    border: 2vi dotted gainsboro;
+    width: 90vi;
+    z-index: -1;
+    left: 5vi;
+    right: 5vi;
+    height: 8vi;
+}
+
+#sec1{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 1;
+    z-index: 1;
+}
+
+
+
+.a1{
+    position: absolute;
+    top: 4vi;
+    left: 20vi;
+    font-size: 3vi;
+}
+
+.a2{
+    position: absolute;
+    top: 4vi;
+    left: 33vi;
+    font-size: 3vi;
+}
+
+.a3{
+    position: absolute;
+    top: 4vi;
+    left: 53vi;
+    font-size: 3vi;
+}
+
+.a4{
+    position: absolute;
+    top: 4vi;
+    left: 70vi;
+    font-size: 3vi;
+}
+
+div a{
+    text-decoration: none;
+}
+
+/*--------------los cabezones------------*/
+
+.sec2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 9vi;
+}
+
+
+
+.b1 h1{
+    font-size: 4em;
+    text-align: center;
+}
+
+.b2 h1{
+    font-size: 4em;
+    text-align: center;
+}
+
+.b3 h1{
+    font-size: 4em;
+    text-align: center;
+}
+
+.b1 img{
+    width: 30vi;
+    height: 20vi;
+    padding-right: 3vi;
+    padding-left: 10vi;
+}
+
+.b2 img{
+    width: 30vi;
+    height: 20vi;
+    padding-left: 3vi;
+}
+
+.b3 img{
+    width: 30vi;
+    height: 20vi;
+    padding-left: 5vi;
+    padding-right: 3vi;
+}
+
+.b1 h2{
+    text-align: center;
+    padding-left: 9.5vi;
+    font-size: 1.6vi;
+}
+
+.b2 h2{
+    text-align: center;
+    padding-left: 2vi;
+    font-size: 1.6vi;
+}
+
+.b3 h2{
+    text-align: center;
+    padding-left: 3vi;
+    font-size: 1.6vi;
+}
+
+@media (max-width: 1000px) {
+    
+
+    
+    .sec2 {
+        flex-direction:column ;
+    }
+
+    .b1 img{
+        padding-left: 10vi;
+        width: 80vi;
+        height: 70vi;
+    }
+
+    .b2 img{
+        width: 90vi;
+        height: 60vi;
+        padding-left: 4.5vi;
+    }
+
+    .b3 img{
+        width: 90vi;
+        height: 60vi;
+    }
+
+    .b1 h2{
+        text-align: center;
+        padding-left: 3vi;
+        font-size: 4vi;
+    }
+
+    .b2 h2{
+        text-align: center;
+        padding-left: 3vi;
+        font-size: 4vi;
+    }
+
+    .b3 h2{
+        text-align: center;
+        padding-left: 3vi;
+        font-size: 4vi;
+    }
+}
+
