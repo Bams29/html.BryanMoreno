@@ -1,0 +1,127 @@
+body{
+    background-color: black;
+}
+
+.sec1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1vi; /* Espacio entre las casillas */
+    padding-top: 2vi;
+}
+
+
+.a1{
+    grid-column: 1; /* Ocupa la primera columna */
+    grid-row: 1; /* Ocupa la primera fila */
+    background-color: #000000;
+    
+}
+
+.a1 img{
+    position: relative;
+    height: 30vi;
+    width: 46vi;
+    padding-left: vi;
+    border-radius: 2vi;
+    left: 1.4vi;
+}
+
+.a2{
+    grid-column: 1; /* Ocupa la primera columna */
+    grid-row: 2; /* Ocupa la segunda fila */
+    background-color: #000000;
+    padding: 10px;
+    
+}
+
+.a2 img{
+    position: relative;
+    height: 30vi;
+    width: 46vi;
+    border-radius: 2vi;
+    left: 1.4vi;
+}
+
+.a3 {
+    grid-column: 2; /* Ocupa la segunda columna */
+    grid-row: 1 / span 2; /* Ocupa desde la primera fila hasta la segunda fila */
+    background-color: #000000;
+    padding: 10px;
+}
+
+.a3 img{
+    width: 45.4vi;
+    height: 61vi;
+    padding-left: vi;
+    border-radius: 2vi;
+}
+
+.a4{
+    grid-column: 1 / span 5;
+    grid-row: 4;
+    background-color: rgb(0, 0, 0);
+    width: 93vi;
+    
+}
+
+.a4 img{
+    position: relative;
+    left: 1.4vi;
+    border-radius: 2vi;
+    width: 93vi;
+    height: 40vi;
+}
+
+/*-------------la segunda parte--------------*/
+
+.sec2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; /* Espacio entre las casillas */
+    padding-top: 4vi;
+}
+
+.b1 {
+    grid-column: 1; /* Ocupa la primera columna */
+    grid-row: 1; /* Ocupa la primera fila */
+    background-color: #000000;
+    padding: 10px;
+}
+
+.b1 img{
+    position: relative;
+    height: 30vi;
+    width: 46vi;
+    padding-left: vi;
+    border-radius: 2vi;
+    left: 1.4vi;
+}
+
+.b2 {
+    grid-column: 1; /* Ocupa la primera columna */
+    grid-row: 2; /* Ocupa la segunda fila */
+    background-color: #000000;
+    padding: 10px;
+}
+
+.b2 img{
+    position: relative;
+    height: 30vi;
+    width: 46vi;
+    border-radius: 2vi;
+    left: 1.4vi;
+}
+
+.b3 {
+    grid-column: 2; /* Ocupa la segunda columna */
+    grid-row: 1 / span 2; /* Ocupa desde la primera fila hasta la segunda fila */
+    background-color: #000000;
+    padding: 10px;
+}
+
+.b3 img{
+    width: 45.4vi;
+    height: 61vi;
+    padding-left: vi;
+    border-radius: 2vi;
+}
