@@ -78,7 +78,7 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px; /* Espacio entre las casillas */
-    padding-top: 4vi;
+    padding-top: 99vi;
 }
 
 .b1 {
