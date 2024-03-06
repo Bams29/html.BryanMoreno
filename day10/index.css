@@ -50,3 +50,245 @@ body{
 .a4 img{
     width: 24vi;
 }
+
+.a5{
+    position: absolute;
+    left: 12vi;
+    animation-name: sun;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    opacity: 0.3;
+    
+}
+
+.a5 img{
+    width: 17vi;
+
+}
+
+@keyframes sun {
+    from {
+        opacity: 0.3;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.a6{
+    position: absolute;
+    top: 11vi;
+    animation-name: ñube;
+    opacity: 0;
+    animation: ñube 5s, nube 3s forwards;
+}
+
+.a6 img{
+    position: absolute;
+    width: 7vi;
+}
+
+@keyframes nube {
+    from{
+        opacity: 0.1;
+    }
+    to{
+        opacity: 1;
+    }
+
+    from{
+        left: 0vi;
+    }
+
+    to{
+        left: 34vi;
+    }
+}
+
+@keyframes ñube {
+    to{
+        left: 20vi;
+        opacity: 0;
+    }
+}
+
+
+/*------------gotas de lluvia marca el rocio lagrimas que vienen del corazon-------------*/
+
+.a7{
+    position: absolute;
+    top: 13vi;
+    left: 36vi;
+    opacity: 0;
+    animation-name: gota1;
+    animation-duration: 2s;
+    animation-delay: 5s;
+}
+
+.a7 img{
+    width: 2vi;
+    height: 2vi;
+}
+
+@keyframes gota1 {
+    from{
+        top: 13vi;
+        left: 36vi;
+        opacity: 1;
+    }
+
+    to{
+        left: 36vi;
+        top: 44vi;
+        opacity: 0;
+    }
+}
+
+.a8{
+    position: absolute;
+    top: 13vi;
+    left: 37vi;
+    opacity: 0;
+    animation-name: gota2;
+    animation-duration: 2s;
+    animation-delay: 6s;
+}
+
+.a8 img{
+    width: 2vi;
+    height: 2vi;
+}
+
+@keyframes gota2 {
+    from{
+        top: 13vi;
+        left: 37vi;
+        opacity: 1;
+    }
+
+    to{
+        left: 37vi;
+        top: 44vi;
+        opacity: 0;
+    }
+}
+
+.a9{
+    position: absolute;
+    top: 13vi;
+    left: 36vi;
+    opacity: 0;
+    animation-name: gota3;
+    animation-duration: 2s;
+    animation-delay: 7s;
+}
+
+.a9 img{
+    width: 2vi;
+    height: 2vi;
+}
+
+@keyframes gota3 {
+    from{
+        top: 13vi;
+        left: 36vi;
+        opacity: 1;
+    }
+
+    to{
+        left: 36vi;
+        top: 44vi;
+        opacity: 0;
+    }
+}
+
+.a10{
+    position: absolute;
+    top: 13vi;
+    left: 36vi;
+    opacity: 0;
+    animation-name: gota3;
+    animation-duration: 2s;
+    animation-delay: 7s;
+}
+
+.a10 img{
+    width: 2vi;
+    height: 2vi;
+}
+
+@keyframes gota3 {
+    from{
+        top: 13vi;
+        left: 37vi;
+        opacity: 1;
+    }
+
+    to{
+        left: 37vi;
+        top: 44vi;
+        opacity: 0;
+    }
+}
+
+.a11{
+    position: absolute;
+    top: 13vi;
+    left: 36vi;
+    opacity: 0;
+    animation-name: gota3;
+    animation-duration: 2s;
+    animation-delay: 8s;
+}
+
+.a11 img{
+    width: 2vi;
+    height: 2vi;
+}
+
+@keyframes gota3 {
+    from{
+        top: 13vi;
+        left: 35vi;
+        opacity: 1;
+    }
+
+    to{
+        left: 35vi;
+        top: 44vi;
+        opacity: 0;
+    }
+}
+
+.a12{
+    position: absolute;
+    top: 13vi;
+    left: 36vi;
+    opacity: 0;
+    animation-name: gota3;
+    animation-duration: 2s;
+    animation-delay: 8s;
+}
+
+.a12 img{
+    width: 2vi;
+    height: 2vi;
+}
+
+@keyframes gota3 {
+    from{
+        top: 13vi;
+        left: 36vi;
+        opacity: 1;
+    }
+
+    to{
+        left: 36vi;
+        top: 44vi;
+        opacity: 0;
+    }
+}
+
+
+/*-------------Helianthus annuus--------------*/
