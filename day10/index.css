@@ -1,0 +1,52 @@
+body{
+    background-image: url("./img/9-95302_terraria.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.a1{
+    position: absolute;
+    top: 30vi;
+    right: 3vi;
+    width: 106vi;
+    height: 20vi;
+}
+
+.a1 img{
+    width: 110vi;
+    height: 40vi;
+}
+
+.a2{
+    position: absolute;
+    bottom: 10vi;
+    left: 60vi;
+    width: 40vi;
+    height: 50vi;
+}
+
+.a2 img{
+    width: 50vi;
+    height: 50vi;
+}
+
+.a3{
+    position: absolute;
+    top: 29vi;
+}
+
+.a3 img{
+    width: 24vi;
+}
+
+.a4{
+    position: absolute;
+    top: 30vi;
+    left: 43vi;
+}
+
+.a4 img{
+    width: 24vi;
+}
