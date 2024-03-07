@@ -54,9 +54,8 @@ body{
 .a5{
     position: absolute;
     left: 12vi;
-    animation-name: sun;
-    animation-duration: 3s;
-    animation-delay: 5s;
+    animation: sun 5s forwards;
+    animation-delay: 7s;
     opacity: 0.3;
     
 }
@@ -106,12 +105,6 @@ body{
     }
 }
 
-@keyframes ñube {
-    to{
-        left: 20vi;
-        opacity: 0;
-    }
-}
 
 
 /*------------gotas de lluvia marca el rocio lagrimas que vienen del corazon-------------*/
@@ -292,3 +285,102 @@ body{
 
 
 /*-------------Helianthus annuus--------------*/
+
+.b1{
+    position: absolute;
+    top: 28vi;
+    left: 30vi;
+    animation: flor1 7s forwards;
+    opacity: 0;
+    animation-delay: 10s;
+}
+
+.b1 img{
+    position: absolute;
+    
+    animation: flor1 7s forwards;
+    opacity: 0;
+    animation-delay: 10s;
+}
+
+@keyframes flor1 {
+    from{
+        top: 18vi;
+        height: 11vi;
+        width: 0vi;
+        opacity: 0;
+    }
+
+    to{
+        top: 18vi;
+        height: 10vi;
+        width: 10vi;
+        opacity: 1;
+    }
+}
+
+.b2{
+    position: absolute;
+    top: 28vi;
+    left: 36vi;
+    animation: flor1 7s forwards;
+    opacity: 0;
+    animation-delay: 10s;
+}
+
+.b2 img{
+    position: absolute;
+    
+    animation: flor1 7s forwards;
+    opacity: 0;
+    animation-delay: 10s;
+}
+
+@keyframes flor1 {
+    from{
+        top: 18vi;
+        height: 11vi;
+        width: 0vi;
+        opacity: 0;
+    }
+
+    to{
+        top: 18vi;
+        height: 10vi;
+        width: 10vi;
+        opacity: 1;
+    }
+}
+
+.b3{
+    position: absolute;
+    top: 15vi;
+    left: 25vi;
+    animation: flor1 7s forwards;
+    opacity: 0;
+    animation-delay: 10s;
+}
+
+.b3 img{
+    position: absolute;
+    
+    animation: flor1 7s forwards;
+    opacity: 0;
+    animation-delay: 10s;
+}
+
+@keyframes flor1 {
+    from{
+        top: 15vi;
+        height: 11vi;
+        width: 0vi;
+        opacity: 0;
+    }
+
+    to{
+        top: 18vi;
+        height: 10vi;
+        width: 10vi;
+        opacity: 1;
+    }
+}
